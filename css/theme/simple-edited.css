@@ -43,6 +43,10 @@ body {
   text-transform: none;
   text-shadow: none; }
 
+.reveal h2 {
+      margin: 0 0 40px 0;
+}
+
 .reveal h1 {
   margin: 0 0 20px 0;
   color: black;
@@ -77,11 +81,18 @@ body {
 .colw1 {
     width: 170px;
 }
-.col-red {
-    background-color: rgba(255, 0, 0, 0);
+.table-top {
+    vertical-align: top!important;
 }
-.col-green {
-    background-color: rgba(0, 255, 0, 0);
+.table-topleft {
+    vertical-align: top!important;
+    text-align: left;
+}
+.caps {
+    text-transform: uppercase;
+}
+tr.gap > td {
+    padding-bottom: 25px;
 }
 
 .reveal h1 {
