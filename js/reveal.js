@@ -1091,7 +1091,7 @@ var Reveal = (function(){
 						slide.style.top = 0;
 					}
 					else {
-						slide.style.top = Math.max( - ( getAbsoluteHeight( slide ) / 2 ) - slidePadding, (-slideHeight-170) / 2 ) + 'px';
+						slide.style.top = Math.max( - ( getAbsoluteHeight( slide ) / 2 ) - slidePadding, (-slideHeight-240) / 2 ) + 'px';
 					}
 				}
 				else {
