@@ -98,7 +98,13 @@ tr.gap > td {
 .small-90 {
     font-size: 90%!important;
 }
+.small-80 {
+    font-size: 80%!important;
+}
 li {
+    margin: 20px 0!important;
+}
+table ul li {
     margin: 10px 0!important;
 }
 
