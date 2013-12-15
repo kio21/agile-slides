@@ -822,7 +822,143 @@
                     </section>
                 </section>
 
+                <section>
+                    <h2>Артефакты</h2>
+                </section>
 
+                <section>
+                    <section>
+                        <h2>Артефакты</h2>
+                        <aside class="notes">
+                        </aside>
+                        <img src="images/artefacts.png">
+                    </section>
+                    <section>
+                        <h2>Журнал продукта</h2>
+                        <aside class="notes">
+                            Определении важности (приоритета) и оценки истории пользователя - отдельная наука.
+                        </aside>
+                        <ul>
+                            <li>Список требований<br />оформляются в виде <span class="hi">историй пользователя</span>
+                                <ul>
+                                    <li>Уникальный числовой идентификатор истории</li>
+                                    <li>Название истории пользователя</li>
+                                    <li>Важность</li>
+                                    <li>Оценка (<span class="hi">сторипоинты</span>)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Журнал продукта: планирование</h3>
+                        <aside class="notes">
+                            Speaker notes.
+                        </aside>
+                        <img src="images/backlog-planning.png">
+                        <ul>
+                            <li>Конфликт при выборе размера Журнала Продукта</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Метод накатывающей волны</h3>
+                        <h3>«rolling wave planning»</h3>
+                        <aside class="notes">
+                            Speaker notes.
+                        </aside>
+                        <img src="images/backlog-rolling-wave.png">
+                        <ul>
+                            <li>Большие куски функциональности,
+                                <br />в дальнейшем будут разбиты на маленькие
+                            </li>
+                            <li>Называются «эпиками» («epic»)</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <h3>Как определить какое количество сторипоинтов назначить истории пользователя?</h3>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Покер-планирование</h2>
+                        <aside class="notes">
+                            Ответить на этот вопрос можно с помощью довольно интересной и необычной на мой взгляд практики как Покер Планирование.
+                        </aside>
+                        <img src="images/poker-planning.png">
+                        <ul>
+                            <li>Покер-планирование (Planning poker) – консенсусная относительная оценка историй пользователей командой</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Покер-планирование</h2>
+                        <aside class="notes">
+                        </aside>
+                        <ul>
+                            <li>Выбор эталонной задачи в 1 сторипоинт
+                                <ul>
+                                    <li>простая и понятная для команды</li>
+                                    <li>типичная для данного проекта</li>
+                                    <li>небольшого размера</li>
+                                </ul>
+                            </li>
+                            <li>Для оценки используется<br />дискретная логарифмическая шкала</li>
+                        </ul>
+                        <img src="images/storypoints-scale.png">
+                    </section>
+                    <section>
+                        <h3>Покер-планирование: раунд 1</h3>
+                        <aside class="notes">
+                            После обсуждения истории пользователей начинается первая раздача, при которой все
+                            участники команды выкладывают карты рубашкой вверх (на данной схеме скрам-мастер
+                            отмечен зеленым)
+
+                            Важно, чтобы при обсуждении
+                            историй пользователя не было
+                            давления, которому все
+                            начинают невольно подчиняться
+                            и ставить оценки, уже не
+                            вдумываясь в суть.
+                        </aside>
+                        <img src="images/poker-round1.png">
+                        <ul>
+                            <li>Важно:
+                                <ul>
+                                    <li>понимание сути истории каждым участником</li>
+                                    <li>отсутствие давления</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Покер-планирование: раунд N</h3>
+                        <aside class="notes">
+
+                        </aside>
+                        <img src="images/poker-round2.png">
+                        <ul>
+                            <li>Начинают обсуждение обычно с крайних оценок</li>
+                            <li>Срам Мастер следит за временем</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3 style="font-size: 1.5em;">Покер-планирование: консенсус</h3>
+                        <aside class="notes">
+                        </aside>
+                        <img src="images/poker-round3.png">
+                        <ul>
+                            <li>сглаживаются разногласия</li>
+                            <li>владелец продукта начинает понимать процесс работы над задачей</li>
+                            <li>команда точнее и детальнее понимает суть задачи</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3 style="font-size: 1.5em;">Покер-планирование: расклад</h3>
+                        <aside class="notes">
+                        </aside>
+                        <img src="images/all-stories.png">
+                    </section>
+                </section>
 
 
                 <!-- <section>
@@ -859,7 +995,7 @@
                 progress: true,
                 history: true,
                 center: true,
-                slideNumber: false,
+                slideNumber: true,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
