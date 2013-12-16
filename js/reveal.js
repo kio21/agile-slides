@@ -20,10 +20,10 @@ var Reveal = (function(){
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
 			width: 960,
-			height: 700,
+			height: 900,
 
 			// Factor of the display size that should remain empty around the content
-			margin: 0.1,
+			margin: 0.0,
 
 			// Bounds for smallest/largest possible scale to apply to content
 			minScale: 0.2,
@@ -797,7 +797,6 @@ var Reveal = (function(){
 			}
 
 		}
-
 		return height;
 
 	}
@@ -1026,7 +1025,6 @@ var Reveal = (function(){
 	function layout() {
 
 		if( dom.wrapper && !isPrintingPDF() ) {
-
 			// Available space to scale within
 			var availableWidth = dom.wrapper.offsetWidth,
 				availableHeight = dom.wrapper.offsetHeight;
@@ -1091,7 +1089,7 @@ var Reveal = (function(){
 						slide.style.top = 0;
 					}
 					else {
-						slide.style.top = Math.max( - ( getAbsoluteHeight( slide ) / 2 ) - slidePadding, (-slideHeight-240) / 2 ) + 'px';
+                        slide.style.top = Math.max( - ( getAbsoluteHeight( slide ) / 2 ) - slidePadding, (-slideHeight) / 2 ) + 'px';
 					}
 				}
 				else {
